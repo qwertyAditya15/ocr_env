@@ -1,0 +1,69 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Ignore Python environment folders
+venv/
+ocr_env/
+__pycache__/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+
+# Ignore log files
+*.log
+config.json
+
+# Ignore temporary downloads
+temp_download/
+temp_url_file/
+
+# Ignore Python virtual environment folders
+venv/
+ocr_env/
+bin/
+lib/
+include/
+etc/
+share/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Logs and Environment Files
+*.log
+.env
+config.json
+
+# Ignore Temporary and Cache Files
+temp_download/
+temp_url_file/
+.cache/
+*.sqlite3
+
+# Ignore IDE or Editor Folders
+.vscode/
+.idea/
+*.iml
+
+# Ignore build and dist folders from packaging
+build/
+dist/
+*.egg-info/
+
+venv/
+ocr_env/
+bin/
+lib/
+include/
+etc/
+share/
+

@@ -1,0 +1,94 @@
+Issues & Fixes
+PDF Formatting Issue:
+
+Improved the generate_pdf function by ensuring text properly wraps and aligns within the page based on font size. This ensures clarity even when formatting options like font size and color are applied.
+"Unsupported File Format" for PDF/Images from Links:
+
+Fixed the logic to download and correctly handle files from URLs, ensuring all image formats (png, jpg, jpeg, etc.) and PDFs work seamlessly.
+Read Aloud Fails After One Use:
+
+Resolved this by resetting the text-to-speech engine after every use to avoid memory or resource conflicts.
+Buttons for Text Formatting:
+
+Added quick buttons for bold and underline formatting.
+Added live preview of the formatted text directly in the Streamlit app.
+Improved Upload from Link for PDFs, Images, and DOCs:
+
+Enhanced support for file handling, including better validation and preprocessing for OCR tasks.
+Download as TXT Button:
+
+Added a button to let users download the extracted text as a .txt file.
+Direct Color Buttons:
+
+Provided buttons for commonly used colors (Black, White, Blue, Red, Yellow) along with the color picker.
+Optimized Streamlit Loading Time:
+
+Streamlined code and removed unnecessary dependencies to enhance the app's performance.
+Updated Features
+Live Text Formatting Preview: Users can see live changes in font size, color, boldness, and underline before downloading.
+Improved Read Aloud: Automatically resets and prompts to "Read Again" after completing a file.
+Quick Formatting Tools: Added buttons for commonly used actions and live color choices.
+
+
+
+
+
+New Features Checklist
+✅ Fix PDF and image formatting issues.
+✅ Proper handling of links for PDFs, images, and DOCX files.
+✅ Live text formatting preview in Streamlit.
+✅ Added bold, underline, and color options for text.
+✅ Read-aloud option prompts for replays and works consistently.
+✅ Added .txt download support.
+✅ Optimized Streamlit loading time.
+
+
+---------------------------------------------------------------------------
+### Code Changes
+
+Updated Features & Fixes
+Fixes
+Upload from Link Option:
+
+Fixed the logic for handling links of images and PDFs to correctly download and process them.
+Remove "Download as TXT":
+
+Replaced with Convert to TXT and a separate download button.
+Bold and Underline Options:
+
+Fixed issues; now the bold and underline styling applies dynamically to the Extracted Text panel and is reflected in the final output.
+Expanded Font Style Options:
+
+Added 7 font style options: Helvetica, Courier, Times-Roman, Arial, Verdana, Georgia, and Comic Sans MS.
+Increased Font Size Range:
+
+Updated the font size slider to range from 10 to 50.
+Font Color with Hex Display:
+
+Updated the color selection to show the respective color hex values for Black, White, Blue, Red, and Yellow.
+Real-Time Formatting Update:
+
+Changes to font size, style, color, bold, and underline are applied dynamically to the Extracted Text panel.
+Download Formatted Text:
+
+The formatting applied in the Extracted Text panel is now preserved when downloading as TXT, PDF, or Word.
+Read Aloud Enhanced:
+
+The read-aloud feature now reads the formatted text from the Extracted Text panel, reflecting any user edits.
+
+
+New Features
+Convert to TXT: Converts the formatted text to TXT format and provides a download button.
+Convert to Word: Converts the formatted text to a Word document and provides a download button.
+
+
+Key Improvements
+Link Upload Works Perfectly: Now handles both images and PDFs from URLs without issues.
+Dynamic Text Formatting: Changes are applied in real time to the Extracted Text panel.
+Bold and Underline Fixed: These formatting features are now functional.
+Text-to-Speech Enhanced: Reads aloud the live formatted text, not the original OCR output.
+---------------------------------------------------------------------------------------------------
+
+
+
+
