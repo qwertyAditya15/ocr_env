@@ -48,3 +48,13 @@ typing_extensions==4.12.2
 tzdata==2024.2
 urllib3==2.2.3
 watchdog==6.0.0
+
+streamlit
+pytesseract
+pyttsx3
+pdf2image
+Pillow
+PyPDF2
+reportlab
+googletrans==4.0.0-rc1
+translate 
