@@ -36,7 +36,7 @@ requests==2.32.3
 pytesseract==0.3.13
 pdf2image==1.17.0
 pyttsx3==2.98
-opencv-python==4.8.0.74
+
 reportlab==4.2.5
 Pillow==11.0.0
 PyPDF2==3.0.1
