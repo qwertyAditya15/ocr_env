@@ -59,3 +59,7 @@ pytz==2024.2
 typing-extensions==4.12.2
 gitpython==3.1.43
 smmap==5.0.1
+
+
+# Image Processing Libraries
+opencv-python==4.8.0.74  # Required for image processing (cv2)
