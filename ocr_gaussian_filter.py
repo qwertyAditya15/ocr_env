@@ -15,6 +15,7 @@ import threading
 import cv2
 from PIL import Image, ImageEnhance, ImageFilter
 import pyperclip
+import numpy
 
 # Apply Gaussian Filter and Binarization (OpenCV)
 def apply_gaussian_filter(image):
