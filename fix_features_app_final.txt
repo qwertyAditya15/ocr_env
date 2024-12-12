@@ -33,18 +33,8 @@ Quick Formatting Tools: Added buttons for commonly used actions and live color c
 
 
 
-New Features Checklist
-✅ Fix PDF and image formatting issues.
-✅ Proper handling of links for PDFs, images, and DOCX files.
-✅ Live text formatting preview in Streamlit.
-✅ Added bold, underline, and color options for text.
-✅ Read-aloud option prompts for replays and works consistently.
-✅ Added .txt download support.
-✅ Optimized Streamlit loading time.
-
 
 ---------------------------------------------------------------------------
-### Code Changes
 
 Updated Features & Fixes
 Fixes

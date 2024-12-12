@@ -160,7 +160,7 @@ def main():
                 extracted_text = edited_text
                 st.success("Changes saved!")
 
-            if st.button("Download Updated PDF"):
+            if st.button("Download PDF"):
                 pdf_path = create_pdf(extracted_text, font, size, color_rgb, bold, underline)
                 with open(pdf_path, "rb") as f:
                     st.download_button("Download PDF", f, file_name="updated_text.pdf")
@@ -181,7 +181,7 @@ def main():
             st.error(f"Error: {e}")
 
     st.markdown(
-        '<p style="position: fixed; bottom: 10px; right: 10px; font-size: small; font-weight: bold;">Aditya</p>',
+        '<p style="position: fixed; bottom: 10px; right: 200px; font-size: 25px; font-weight: bold;">Aditya</p>',
         unsafe_allow_html=True
     )
 
